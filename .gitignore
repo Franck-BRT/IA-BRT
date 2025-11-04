@@ -1,0 +1,61 @@
+# BRT Studio .gitignore
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+DerivedData/
+*.xcscmblueprint
+*.xccheckout
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Build artifacts
+dist/
+*.app
+*.dmg
+*.zip
+*.dSYM.zip
+*.dSYM
+
+# Logs
+*.log
+*.jsonl
+
+# Temporary files
+*.swp
+*.swo
+*~
+.*.sw?
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Secrets
+*.key
+*.pem
+secrets.json
+.env
+
+# Test coverage
+.coverage
+coverage/
+*.profraw
+*.profdata
+
+# Backup files
+*.bak
+*.backup
+
+# Generated documentation
+docs/generated/
